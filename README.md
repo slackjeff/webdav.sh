@@ -7,8 +7,12 @@ Install and configure webdav on debian with authentication!
 ## Configure:
 
 Put your username here, used for apache authentication!:
+```
 userWebdavAuth="YorUserNameHere"
+```
 
 ## Install
 
+```
 curl https://raw.githubusercontent.com/slackjeff/webdav.sh/main/webdav.sh | sudo bash
+```
